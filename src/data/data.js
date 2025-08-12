@@ -9,37 +9,41 @@ export const navItems = [
   { id: "contact", label: "Contact", icon: MessageCircle },
 ];
 
+// data/data.js
 export const skills = {
   frontend: [
     "HTML5",
     "CSS3",
+    "Tailwind CSS",
     "JavaScript (ES6+)",
     "React.js",
-    "Redux Toolkit",
-    "Next.js",
-    "Tailwind CSS",
-    "Bootstrap",
+    "Responsive Web Design",
+    "UI/UX from Figma",
+    "Material UI",
   ],
   backend: [
     "Node.js",
     "Express.js",
     "MongoDB",
-    "Mongoose",
-    "REST APIs",
-    "JWT Auth",
-    "CRUD Operations",
+    "API Development",
+    "Authentication (JWT)",
   ],
   tools: [
-    "Git",
-    "GitHub",
-    "Vercel",
-    "Netlify",
-    "Figma",
-    "VS Code",
+    "Git & GitHub",
+    "Gradio",
+    "Streamlit",
+    "Hugging Face Spaces",
+    "Vercel & Netlify",
     "Postman",
-    "Docker",
+    "Cursor",
+    "Claude",
+    "ChatGPT",
+    "Bolt",
+    "Windsurf",
+    "Lovable",
   ],
 };
+
 
 export const projects = [
   {

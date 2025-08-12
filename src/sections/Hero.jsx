@@ -1,4 +1,4 @@
-import profileImg from "../assets/gull.png";
+import profileImg from "../assets/snow.png";
 
 export default function Hero() {
   return (
@@ -11,7 +11,7 @@ export default function Hero() {
         <img
           src={profileImg}
           alt="Gul Snobar"
-          className="w-54 h-54 sm:w-52 sm:h-52 object-cover rounded-full border-4 border-emerald-400 shadow-lg transition-transform duration-500 group-hover:scale-110"
+          className="w-60 h-60 sm:w-52 sm:h-52 object-cover rounded-full border-4 border-emerald-400 shadow-lg transition-transform duration-500 group-hover:scale-110"
         />
         <div className="absolute -inset-1 rounded-full bg-emerald-500/30 blur-2xl opacity-60 group-hover:opacity-100 transition duration-500 animate-pulse"></div>
       </div>
